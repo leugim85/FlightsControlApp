@@ -1,0 +1,11 @@
+C:\Source\DepartureFlights.App\Domain\bin\Debug\net6.0-windows\Domain.deps.json
+C:\Source\DepartureFlights.App\Domain\bin\Debug\net6.0-windows\Domain.dll
+C:\Source\DepartureFlights.App\Domain\bin\Debug\net6.0-windows\ref\Domain.dll
+C:\Source\DepartureFlights.App\Domain\bin\Debug\net6.0-windows\Domain.pdb
+C:\Source\DepartureFlights.App\Domain\obj\Debug\net6.0-windows\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\DepartureFlights.App\Domain\obj\Debug\net6.0-windows\Domain.AssemblyInfoInputs.cache
+C:\Source\DepartureFlights.App\Domain\obj\Debug\net6.0-windows\Domain.AssemblyInfo.cs
+C:\Source\DepartureFlights.App\Domain\obj\Debug\net6.0-windows\Domain.csproj.CoreCompileInputs.cache
+C:\Source\DepartureFlights.App\Domain\obj\Debug\net6.0-windows\Domain.dll
+C:\Source\DepartureFlights.App\Domain\obj\Debug\net6.0-windows\ref\Domain.dll
+C:\Source\DepartureFlights.App\Domain\obj\Debug\net6.0-windows\Domain.pdb

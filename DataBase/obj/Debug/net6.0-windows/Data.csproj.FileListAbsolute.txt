@@ -1,0 +1,15 @@
+C:\Source\DepartureFlights.App\DataBase\bin\Debug\net6.0-windows\Data.deps.json
+C:\Source\DepartureFlights.App\DataBase\bin\Debug\net6.0-windows\Data.dll
+C:\Source\DepartureFlights.App\DataBase\bin\Debug\net6.0-windows\ref\Data.dll
+C:\Source\DepartureFlights.App\DataBase\bin\Debug\net6.0-windows\Data.pdb
+C:\Source\DepartureFlights.App\DataBase\bin\Debug\net6.0-windows\Domain.dll
+C:\Source\DepartureFlights.App\DataBase\bin\Debug\net6.0-windows\Domain.pdb
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.csproj.AssemblyReference.cache
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.AssemblyInfoInputs.cache
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.AssemblyInfo.cs
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.csproj.CoreCompileInputs.cache
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.csproj.CopyComplete
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.dll
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\ref\Data.dll
+C:\Source\DepartureFlights.App\DataBase\obj\Debug\net6.0-windows\Data.pdb

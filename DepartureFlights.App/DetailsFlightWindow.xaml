@@ -1,0 +1,39 @@
+﻿<Window  Background="AliceBlue"  x:Class="DepartureFlights.App.DetailsFlightWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DepartureFlights.App"
+        mc:Ignorable="d"
+        Title="DetailsFlightWindow" Height="300" Width="744">
+    <Grid>
+    
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <DataGrid Name="Details" AutoGenerateColumns="false" Grid.Column="0" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="180" Header="Id Vuelo" Binding="{Binding FligthId}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Origen" Binding="{Binding OriginCity}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Destino" Binding="{Binding DestinationCity}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Hora de salida" Binding="{Binding DepartureTime}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+        <DataGrid   Name="DetailsDown" AutoGenerateColumns="false" Grid.Column="0" Grid.Row="2">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="180" Header="Hora de llegada" Binding="{Binding ArrivalTime}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Aerolinea" Binding="{Binding Airline}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Status" Binding="{Binding FlightStatus}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Fecha" Binding="{Binding Date}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

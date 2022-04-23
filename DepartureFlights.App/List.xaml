@@ -1,0 +1,34 @@
+﻿<Page  Background="AliceBlue" x:Class="DepartureFlights.App.List"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DepartureFlights.App"
+      mc:Ignorable="d" 
+      d:DesignHeight="00" d:DesignWidth="750"
+      Title="List">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+          <Button Margin="10" Grid.Column="0" Click="Button_Click" Width="100" Grid.Row="0" HorizontalAlignment="Right" >Agregar</Button>
+
+        <DataGrid MouseDoubleClick="fligthsList_MouseDoubleClick"  Name="fligthsList" AutoGenerateColumns="false" Grid.Column="0" Grid.Row="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn  Width="60" Header="Id Vuelo" Binding="{Binding FligthId}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Origen" Binding="{Binding OriginCity}"></DataGridTextColumn>
+                <DataGridTextColumn Width="180" Header="Destino" Binding="{Binding DestinationCity}"></DataGridTextColumn>
+                <DataGridTextColumn Width="175" Header="Hora de salida" Binding="{Binding DepartureTime}"></DataGridTextColumn>
+                <DataGridTextColumn Width="175" Header="Hora de llegada" Binding="{Binding ArrivalTime}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+
+</Page>

@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "17058eb8-a910-493c-8880-93da1b688cf0": {
+      "ProjectGuid": "17058eb8-a910-493c-8880-93da1b688cf0",
+      "DisplayName": "DepartureFlights.App",
+      "ColorIndex": 0
+    },
+    "0749104d-56cc-4c33-a78c-1e158f0a8f15": {
+      "ProjectGuid": "0749104d-56cc-4c33-a78c-1e158f0a8f15",
+      "DisplayName": "Business",
+      "ColorIndex": 1
+    },
+    "63b6b860-d5c0-4579-b159-2af3ca6a4d7d": {
+      "ProjectGuid": "63b6b860-d5c0-4579-b159-2af3ca6a4d7d",
+      "DisplayName": "Data",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "fd8a9725-1eea-4cae-96c0-396ea9bbc3fc": {
+      "ProjectGuid": "fd8a9725-1eea-4cae-96c0-396ea9bbc3fc",
+      "DisplayName": "Domain",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

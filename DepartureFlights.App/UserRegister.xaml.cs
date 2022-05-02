@@ -17,7 +17,7 @@ namespace DepartureFlights.App
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (User.Text.Length == 0 || password.Password == String.Empty || confirmPassword.Password == String.Empty) 
+            if (User.Text.Trim().Length == 0 || password.Password.Trim() == String.Empty || confirmPassword.Password == String.Empty) 
             {
                 MessageBox.Show("Debe ingresar todos los campos");
                 return;

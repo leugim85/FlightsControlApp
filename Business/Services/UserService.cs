@@ -37,7 +37,7 @@ namespace Business.Services
             var userOnValidation = new UserInValidationDto();
 
             var user = connection.ValidateUser(userDto.UserName);
-            if (user is null)
+            if (user.UserName is null)
             {
                 return null;
             }
